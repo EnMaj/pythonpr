@@ -1,4 +1,5 @@
 from turtle import *
+import turtle
 
 color("blue")
 begin_fill()
@@ -148,8 +149,6 @@ def rhombus(a):
         t.forward(a)
         t.left(120)
 
-
-import turtle
 
 t = turtle.Turtle()
 w = turtle.Screen()
